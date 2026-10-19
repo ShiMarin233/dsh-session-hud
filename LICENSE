@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-本插件的宠物动画素材来自 dsh-pet (https://github.com/PC2005-cloud/dsh-pet)，
-作者 PC2005-cloud，同为 MIT License；其许可证原文见 assets/pet/LICENSE-dsh-pet.txt。
-素材原样使用，未改动画面内容（仅裁掉透明边并转码为动图 WebP）。
