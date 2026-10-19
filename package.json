@@ -1,0 +1,54 @@
+{
+  "name": "dsh-session-hud",
+  "version": "0.1.0",
+  "description": "Session-status desktop pet for DeepSeek Harness (dsh): live counts of running, unread-completed, and waiting-for-choice sessions. 会话状态桌宠：右下角角标实时显示「在跑 / 完成未看 / 等你选」三个数字，点击直达对应会话。",
+  "type": "module",
+  "main": "./lib/index.mjs",
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "assets",
+    "tools",
+    "cordis.patch.yml",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "session",
+    "hud",
+    "badge",
+    "desktop-pet"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-session"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiMarin233/dsh-session-hud.git"
+  },
+  "homepage": "https://github.com/ShiMarin233/dsh-session-hud#readme",
+  "bugs": {
+    "url": "https://github.com/ShiMarin233/dsh-session-hud/issues"
+  },
+  "author": "ShiMarin233",
+  "license": "MIT"
+}

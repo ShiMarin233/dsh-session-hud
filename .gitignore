@@ -1,0 +1,20 @@
+# ⚠️ lib/ 是预构建产物，**必须提交**：pnpm 默认禁止执行 git 依赖的构建脚本，
+#    仓库若只有源码，别人装上的是空入口。所以这里绝不忽略 lib/。
+
+# 依赖与开发期杂物
+node_modules/
+*.log
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 备份与临时文件
+*.bak
+*.bak-*
+*.orig
+*.tmp
+*.zip

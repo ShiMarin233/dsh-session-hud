@@ -1,0 +1,5 @@
+# dsh-session-hud bundle：向组合挂一行 Node half（空 apply，行为全在 client）。
+# client half 经 exports["./client"] + dsh.client.platform = web 自动加载。
+- insert:
+    - id: session-hud
+      name: 'dsh-session-hud'

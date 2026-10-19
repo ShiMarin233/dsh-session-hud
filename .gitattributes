@@ -1,0 +1,6 @@
+# 文本统一 LF，避免不同平台提交时把整份文件判成改动
+* text=auto eol=lf
+
+# 二进制 / 生成物：不做行尾转换，也不在 diff 里展开
+*.webp binary
+lib/client.js binary -diff
